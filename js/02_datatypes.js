@@ -10,7 +10,7 @@
 //undefined =>
 //null => standalon value
 //object
-//symbol
+//symbol  
 
 console.log(typeof undefined) // => undefined
 console.log(typeof null);
