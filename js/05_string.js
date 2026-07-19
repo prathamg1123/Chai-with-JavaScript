@@ -6,7 +6,7 @@ const lname = "Bairagi"
 // console.log(`First name is ${fname} Last name is ${lname}`); //string interpolation method 
 
 // To define string
-const str = new String("Javascript") // typeof returns object
+const str = new String("Pratham") // typeof returns object
 // console.log(fname.toUpperCase());
 
 // console.log(str.length);
@@ -21,11 +21,19 @@ const newString = str.substring(0,4)
 const name = "     Pratham      "
 const trimString = name.trim()
 
-console.log(name.trimLeft());
+// console.log(name.trimLeft());
 
-const sliceString = str.slice(-7, 8)
-console.log(str.padStart(15,"hello"));
+const sliceString = str.slice(3,8)
+// console.log(sliceString);
 
+// console.log(str.padStart(15,"hello"));
+
+const url = "https://pratham.com/pratham%20bairagi"
+
+// console.log(url.replace('%20', '-'))
+
+const gameName = "pratham-pb-games"
+console.log(gameName.split("-"));
 
 
 
